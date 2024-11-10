@@ -8,7 +8,7 @@ export default function Hero(){
     <div className='main-div'>
     <div className='hero-section'>
         <div className='hero-content'>
-          <h1 className='hero-heading'>Hello, I'm </h1>
+          <h1 className='hero-heading'>Hello, I am </h1>
           <h1 className='hero-heading'> Misbah Nayab</h1>
           <p className='hero-paragraph'>I am an Elementary School Teacher and a Web Designer. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric designs. </p>
           <Button className='hero-button'/>

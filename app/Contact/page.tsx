@@ -9,7 +9,7 @@ export default function Contact() {
             <div className='contact-card'>
                 <div className='contact-card-header'>
                     <h1 className='contact-card-title'> Contact Me</h1>
-                    <p className='contact-card-paragraph'> Get in touch for collaboration, inquiries, or support. I'm here to help!</p>
+                    <p className='contact-card-paragraph'> Get in touch for collaboration, inquiries, or support. I am here to help!</p>
                 </div>
                 <div className='contact-card-content'>
                     <div className='contact-card-input'>
