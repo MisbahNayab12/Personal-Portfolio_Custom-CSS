@@ -1,0 +1,557 @@
+.header-content{
+    background-color: white;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+    flex-direction: column;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo-image{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.logo-heading{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.anchors-ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.anchors{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+.anchors:hover{
+    color: rgb(245 158 11);
+}
+
+.main-div{
+    background-color: rgb(229 229 229);
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 6px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.hero-content{
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: ui-sans-serif, system-ui;
+    margin: 0;
+}
+
+.hero-paragraph{
+    margin-top: 36px;
+	margin-bottom: 36px;
+    font-family: ui-sans-serif, system-ui;
+}
+
+.hero-image{
+    width: 20rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-section{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.about-image{
+    width: 83%;
+    padding: 8px;
+}
+
+.image{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-content{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about-heading{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 0;
+    font-family: ui-sans-serif, system-ui;
+}
+
+.about-paragraph{
+    line-height: 1.625;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.skills-heading1{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: ui-sans-serif, system-ui;
+}
+
+.skills-heading2{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: ui-sans-serif, system-ui;
+}
+
+.educational-skills-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.programming-skills-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.skills-content{
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.skills-heading{
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.skills-image{
+    width: 300px;
+    height: 300px;
+    padding: 1.5rem;
+}
+
+.skills-div{
+    text-align: center;
+    padding: 16px;
+}
+
+.contact-main-div{
+    background-color: rgb(229 229 229);
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-card{
+    width: 33.333333%;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-card-header{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.contact-card-title{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.contact-card-paragraph{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(107 114 128);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+}
+
+.contact-card-content{
+    width: 100%;
+    gap: 16px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-card-input{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    padding: 15px;
+}
+
+.input{
+    width: 90%;
+    height: 10px;
+    padding: 8px;
+}
+
+.contact-card-message{
+    display: grid;
+    align-items: start;
+    gap: 8px;
+    padding: 15px;
+}
+
+.email{
+    font-weight: 600;
+}
+
+.message{
+    font-weight: 600;
+}
+
+.card-text-area{
+    height: 150px;
+    padding: 8px;
+}
+
+.contact-button{
+    margin: 0%;
+    width: 100%;
+    padding: 15px;
+}
+
+.submit-button{
+    background-color: rgb(107 33 168);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: ui-sans-serif, system-ui;
+    color: white;
+    font-weight: 600;
+    margin: 10px 10px;
+    width: 90%;
+}
+
+.submit-button:hover{
+    background-color: rgb(245 158 11);
+}
+
+.download-button{
+    text-decoration: none;
+    background-color: rgb(107 33 168);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: ui-sans-serif, system-ui;
+    color: white;
+    font-weight: 600;
+}
+
+.download-button:hover{
+    background-color: rgb(245 158 11);
+}
+
+.readmore-button{
+    text-decoration: none;
+    background-color: rgb(107 33 168);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: ui-sans-serif, system-ui;
+    color: white;
+    font-weight: 600;
+}
+
+.readmore-button:hover{
+    background-color: rgb(245 158 11);
+}
+
+.header-button{
+    text-decoration: none;
+    background-color: rgb(107 33 168);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: ui-sans-serif, system-ui;
+    color: white;
+    font-weight: 600;
+}
+
+.header-button:hover{
+    background-color: rgb(245 158 11);
+}
+
+.hero-button{
+    text-decoration: none;
+    background-color: rgb(107 33 168);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: ui-sans-serif, system-ui;
+    color: white;
+    font-weight: 600;
+}
+
+.hero-button:hover{
+    background-color: rgb(245 158 11);
+}
+
+@media (min-width: 640px) {
+    .navigation{
+        flex-direction: row;
+    }
+
+    .hero-section{
+        flex-direction: row;
+    }
+
+    .hero-content{
+        text-align: left;
+    }
+
+    .hero-heading{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .hero-image{
+        width: 30rem;
+    }
+
+    .about-section{
+        flex-direction: row;
+    }
+
+    .about-image{
+        width: 60%;
+    }
+
+    .about-content{
+        text-align: left;
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .hero-heading{
+        font-size: 48px;
+        line-height: 1;
+    } 
+
+    .hero-image{
+        width: 200px;
+        height: auto;
+    }
+
+    .image{
+        width:35rem;
+        height: auto;
+    }
+
+    .about-content{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .about-heading{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .skills-heading1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .skills-heading2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .educational-skills-section{
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .programming-skills-section{
+        flex-direction: row;
+        gap: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navigation{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .anchors-ul{
+        gap: 32px;
+    }
+
+    .hero-section{
+        padding: 32px;
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .hero-content{
+        width: 50%;
+    }
+
+    .hero-heading{
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    .hero-paragraph{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .hero-image{
+        width: 20rem;
+    }
+
+    .about-section{
+        gap: 80px;
+        margin-left: 64px;
+        margin-right: 64px;
+        padding: 32px;
+    }
+
+    .about-image{
+        width: 50%;
+    }
+
+    .about-content{
+        width: 66%;
+    }
+ }
+
+ @media (min-width: 1280px) {
+    .hero-heading{
+        font-size: 72px;
+        line-height: 1;
+    }
+
+    .about-heading{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .skills-heading1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .skills-heading2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+ }
+
+ @media (min-width: 1536px) {
+    .about-heading{
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    .skills-heading1{
+        font-size: 60px;
+        line-height: 1px;
+    }
+
+    .skills-heading2{
+        font-size: 48px;
+        line-height: 1px;
+    }
+
+    .educational-skills-section{
+        gap: 320px;
+    }
+
+    .programming-skills-section{
+        gap: 320px;
+    }
+ }
